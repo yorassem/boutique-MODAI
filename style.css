@@ -1,0 +1,75 @@
+/* Style général */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    }
+    /* Header */
+    header {
+    background-color: #4CAF50;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    }
+    header nav ul {
+    list-style: none;
+    padding: 0;
+    }
+    header nav ul li {
+    display: inline;
+    margin-right: 15px;
+    }
+    header nav ul li a {
+    color: white;
+    text-decora�on: none;
+    }
+    /* Sec�on principale */
+    .intro {
+    text-align: center;
+    padding: 50px;
+    }
+    buton {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    }
+    buton:hover {
+    background-color: #45a049;
+    }
+    /* Sec�on des produits */
+    .produits {
+    display: ﬂex;
+    jus�fy-content: space-around;
+    margin-top: 30px;
+    }
+    .carte-produit {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transi�on: transform 0.3s ease;
+    }
+    .carte-produit img {
+    width: 100%;
+    height: auto;
+    }
+    .carte-produit:hover {
+    transform: scale(1.05);
+    }
+    /* Footer */
+    footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    posi�on: ﬁxed;
+    botom: 0;
+    width: 100%;
+    }
+    
